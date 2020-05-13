@@ -2,11 +2,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 // Rutas
-import { AppRoutingModule } from './app-routing.module';
 import { APP_ROUTES } from './app.routes';
 
 // Modulos
 import { PagesModule } from './pages/pages.module';
+
+// Servicios
+import { ServiceModule } from './services/service.module';
 
 // Componentes
 import { AppComponent } from './app.component';
@@ -23,9 +25,9 @@ import { NopagefoundComponent } from './nopagefound/nopagefound.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     APP_ROUTES,
     PagesModule,
+    ServiceModule
   ],
   providers: [],
   bootstrap: [AppComponent],
