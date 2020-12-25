@@ -34,7 +34,7 @@
         "@types/node": "^12.11.1",
         "codelyzer": "^5.1.2",
         "elliptic": ">=6.5.3",
-        "http-proxy": ">=1.18.1",
+        "http-proxy": "^1.18.1",
         "ini": "^2.0.0",
         "jasmine-core": "~3.5.0",
         "jasmine-spec-reporter": "~4.2.1",
@@ -45,11 +45,11 @@
         "karma-jasmine-html-reporter": "^1.4.2",
         "node-forge": "^0.10.0",
         "protractor": "~5.4.3",
-        "serialize-javascript": ">=3.1.0",
+        "serialize-javascript": "^5.0.1",
         "ts-node": "~8.3.0",
         "tslint": "~6.1.0",
         "typescript": "~3.8.3",
-        "websocket-extensions": ">=0.1.4",
-        "yargs-parser": ">=20.2.4"
+        "websocket-extensions": "^0.1.4",
+        "yargs-parser": "^20.2.4"
     }
 }
