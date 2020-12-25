@@ -50,6 +50,6 @@
         "tslint": "~6.1.0",
         "typescript": "~3.8.3",
         "websocket-extensions": ">=0.1.4",
-        "yargs-parser": ">=20.2.4"
+        "yargs-parser": ">=13.1.2"
     }
 }
